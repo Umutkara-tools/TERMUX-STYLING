@@ -136,7 +136,7 @@ elif [[ $color == 2 ]];then
 	exit
 elif [[ $color == 3 ]];then
 	eski=$(sed -n 3p colors.properties)
-	yeni="foreground=#4caf50"
+	yeni="foreground=#7cfc00"
 	sed -ie "s/$eski/$yeni/g" colors.properties
 	termux-reload-settings
 	echo
