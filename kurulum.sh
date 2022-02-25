@@ -34,5 +34,3 @@ printf "\e[32m
 echo
 echo
 echo
-exit
-
