@@ -74,9 +74,9 @@ if [[ -a $HOME/.termux ]];then
 	rm -rf $HOME/.termux
 fi
 
-if [[ -a $PREFIX/share/cows ]];then
-	cp termux/files/cows/* $PREFIX/share/cows
-	chmod 777 $PREFIX/share/cows/*
+if [[ -a $PREFIX/share/cowsay/cows ]];then
+	cp termux/files/cows/* $PREFIX/share/cowsay/cows
+	chmod 777 $PREFIX/share/cowsay/cows/*
 fi
 cp termux/zshrc $HOME/.zshrc
 
